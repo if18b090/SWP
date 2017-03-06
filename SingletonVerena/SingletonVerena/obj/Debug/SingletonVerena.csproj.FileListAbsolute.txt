@@ -1,0 +1,6 @@
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\bin\Debug\SingletonVerena.exe.config
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\bin\Debug\SingletonVerena.exe
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\bin\Debug\SingletonVerena.pdb
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\obj\Debug\SingletonVerena.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\obj\Debug\SingletonVerena.exe
+C:\Users\Verena\Desktop\SingletonVerena\SingletonVerena\obj\Debug\SingletonVerena.pdb
