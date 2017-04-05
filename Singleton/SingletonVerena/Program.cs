@@ -11,7 +11,6 @@ namespace Singleton
         static void Main(string[] args)
         {
             string user = "currentUser";
-            Singleton Logger = Singleton.Instance;
             Feature feat = new Feature();
 
             feat.funOne(user);

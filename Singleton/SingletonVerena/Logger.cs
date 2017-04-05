@@ -20,9 +20,9 @@ namespace Singleton
         /// Lazy initalization - Instanz wird erst beim ersten Aufruf erzeugt
         /// Vorsicht: auf die Weise nicht threadsicher!
         /// </summary>
-        private static Singleton instance;
+        protected static Singleton instance;
 
-        private Singleton() { }
+        protected Singleton() { }
 
         public static Singleton Instance
         {
@@ -41,8 +41,8 @@ namespace Singleton
         /// Static initalization - Die Instanz wird schon beim Laden der Klasse erzeugt
         /// Sichert, dass die Instanz schon erzeugt wird, bevor ein Thread darauf zugreifen will
         /// </summary>
-        private static Singleton instance = new Singleton();
-        private Singleton() { }
+        protected static Singleton instance = new Singleton();
+        protected Singleton() { }
         public static Singleton Instance
         {
             get
@@ -56,7 +56,7 @@ namespace Singleton
             DateTime dateTime = DateTime.Now;
             string loginfo = user + " " + dateTime + "\n";
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            path = Path.Combine(path, "SingletonVerena", "logfile.txt");
+            path = Path.Combine(path, "SWP", "Singleton", "logfile.txt");
             WriteToTextfile(path, loginfo);
         }
 

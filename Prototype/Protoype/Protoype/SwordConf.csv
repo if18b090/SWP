@@ -1,0 +1,4 @@
+TypeName, Weight, Length, Hitpoints, Material, Color
+Longsword, 5.0, 1.3, 20, Mithril, Silver
+Bastardsword, 4.0, 1.0, 15, Steel, Grey
+Knive, 0.2, 0.3, 4, Copper, Red

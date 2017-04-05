@@ -1,1 +1,6 @@
 C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\bin\Debug\Protoype.exe.config
+C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\bin\Debug\Protoype.exe
+C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\bin\Debug\Protoype.pdb
+C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\obj\Debug\Protoype.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\obj\Debug\Protoype.exe
+C:\Users\Verena\Desktop\SWP\Prototype\Protoype\Protoype\obj\Debug\Protoype.pdb

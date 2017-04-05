@@ -10,6 +10,13 @@ namespace Protoype
     {
         static void Main(string[] args)
         {
+            SwordManager SwordManager = SwordManager.Instance;
+            SwordManager.LoadConfig();
+
+            IPrototype Supersword = SwordManager.GetClone("Longsword");
+
+            Console.ReadKey();
         }
     }
 }
+
