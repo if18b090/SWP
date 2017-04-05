@@ -1,0 +1,5 @@
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\PluginInterfaces\bin\Debug\PluginInterfaces.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\PluginInterfaces\bin\Debug\PluginInterfaces.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\PluginInterfaces\obj\Debug\PluginInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\PluginInterfaces\obj\Debug\PluginInterfaces.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\PluginInterfaces\obj\Debug\PluginInterfaces.pdb

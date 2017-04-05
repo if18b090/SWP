@@ -1,0 +1,7 @@
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\bin\Debug\MyFirstPlugin.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\bin\Debug\MyFirstPlugin.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\bin\Debug\PluginInterfaces.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\bin\Debug\PluginInterfaces.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\obj\Debug\MyFirstPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\obj\Debug\MyFirstPlugin.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\MyFirstPlugin\obj\Debug\MyFirstPlugin.pdb

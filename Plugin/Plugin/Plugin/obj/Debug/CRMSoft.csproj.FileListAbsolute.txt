@@ -1,0 +1,10 @@
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\Plugin.exe.config
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\Plugin.exe
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\MyFirstPlugin.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\PluginInterfaces.dll
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\MyFirstPlugin.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\bin\Debug\PluginInterfaces.pdb
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\obj\Debug\CRMSoft.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\obj\Debug\Plugin.exe
+C:\Users\Verena\Desktop\SWP\Plugin\Plugin\Plugin\obj\Debug\Plugin.pdb
