@@ -1,0 +1,11 @@
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\obj\Debug\SecondGame.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\SecondGame.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\SecondGame.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\State.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\bin\Debug\State.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\obj\Debug\SecondGame.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\SecondGame\obj\Debug\SecondGame.pdb

@@ -1,0 +1,10 @@
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\StateInterface\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\StateInterface\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\StateInterface\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\StateInterface\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\StateInterface\obj\Debug\StateInterface.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\StateInterface\obj\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\StateInterface\obj\Debug\StateInterface.pdb

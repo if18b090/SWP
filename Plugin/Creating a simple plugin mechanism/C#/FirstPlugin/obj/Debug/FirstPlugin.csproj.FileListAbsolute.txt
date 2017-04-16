@@ -1,0 +1,10 @@
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\FirstPlugin.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\FirstPlugin.pdb
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\PluginContracts.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\PluginContracts.pdb
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\obj\Debug\FirstPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\obj\Debug\FirstPlugin.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\obj\Debug\FirstPlugin.pdb
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\Properties.Resources.Designer.cs.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\Customer.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\FirstPlugin\bin\Debug\Customer.pdb

@@ -1,0 +1,4 @@
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\PluginContracts\bin\Debug\PluginContracts.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\PluginContracts\bin\Debug\PluginContracts.pdb
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\PluginContracts\obj\Debug\PluginContracts.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\PluginContracts\obj\Debug\PluginContracts.pdb

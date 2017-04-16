@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiGameConsole", "PiGameConsole\PiGameConsole.csproj", "{298392CD-2F9F-46E8-BA69-E97ECA65233D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameInterface", "GameInterface\GameInterface.csproj", "{60B0E91D-8497-4EF3-B87E-029B26FFECEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateInterface", "StateInterface\StateInterface.csproj", "{5027E76D-EA5D-4246-8D1E-1962ECB0C109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGame", "FirstGame\FirstGame.csproj", "{73D6E4C2-6101-405A-B2A9-2E533368BAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{08B93278-3917-4885-A969-A9F98874B57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondGame", "SecondGame\SecondGame.csproj", "{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{298392CD-2F9F-46E8-BA69-E97ECA65233D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298392CD-2F9F-46E8-BA69-E97ECA65233D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298392CD-2F9F-46E8-BA69-E97ECA65233D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298392CD-2F9F-46E8-BA69-E97ECA65233D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B0E91D-8497-4EF3-B87E-029B26FFECEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B0E91D-8497-4EF3-B87E-029B26FFECEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B0E91D-8497-4EF3-B87E-029B26FFECEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B0E91D-8497-4EF3-B87E-029B26FFECEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5027E76D-EA5D-4246-8D1E-1962ECB0C109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5027E76D-EA5D-4246-8D1E-1962ECB0C109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5027E76D-EA5D-4246-8D1E-1962ECB0C109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5027E76D-EA5D-4246-8D1E-1962ECB0C109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D6E4C2-6101-405A-B2A9-2E533368BAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D6E4C2-6101-405A-B2A9-2E533368BAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D6E4C2-6101-405A-B2A9-2E533368BAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D6E4C2-6101-405A-B2A9-2E533368BAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B93278-3917-4885-A969-A9F98874B57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B93278-3917-4885-A969-A9F98874B57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B93278-3917-4885-A969-A9F98874B57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B93278-3917-4885-A969-A9F98874B57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

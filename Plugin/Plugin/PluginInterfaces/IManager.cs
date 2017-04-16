@@ -9,9 +9,7 @@ namespace PluginInterfaces
     public interface IManager
     {
         List<IPlugin> ManagerList { get; }
-
         void Add(object obj);
-
         void Remove(object obj);
     }
 }

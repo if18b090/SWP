@@ -9,6 +9,9 @@ namespace MyFirstPlugin
 {
     class CustomerSatisfaction : IPlugin
     {
+		public int satisfaction;
+		public bool wouldRecommend;
+
         public void GetData()
         {
             throw new NotImplementedException();

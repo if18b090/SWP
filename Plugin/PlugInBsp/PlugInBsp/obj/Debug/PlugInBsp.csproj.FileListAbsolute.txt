@@ -1,0 +1,14 @@
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.exe.config
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.csprojResolveAssemblyReference.cache
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.exe
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.pdb
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\bin\Debug\PlugInInterface.dll
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.exe
+E:\FH\SS2017\SoftwareParadigmen\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.pdb
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.exe.config
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.exe
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.pdb
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.exe
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\bin\Debug\PlugInBsp.pdb
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\bin\Debug\PlugInInterface.dll
+C:\Users\Verena\Desktop\PlugInBsp\PlugInBsp\PlugInBsp\obj\Debug\PlugInBsp.csprojResolveAssemblyReference.cache

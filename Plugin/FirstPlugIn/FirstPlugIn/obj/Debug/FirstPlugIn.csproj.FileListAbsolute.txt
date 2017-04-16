@@ -1,0 +1,11 @@
+E:\FH\SS2017\SoftwareParadigmen\FirstPlugIn\FirstPlugIn\bin\Debug\FirstPlugIn.dll
+E:\FH\SS2017\SoftwareParadigmen\FirstPlugIn\FirstPlugIn\bin\Debug\FirstPlugIn.pdb
+E:\FH\SS2017\SoftwareParadigmen\FirstPlugIn\FirstPlugIn\bin\Debug\PlugInInterface.dll
+E:\FH\SS2017\SoftwareParadigmen\FirstPlugIn\FirstPlugIn\obj\Debug\FirstPlugIn.dll
+E:\FH\SS2017\SoftwareParadigmen\FirstPlugIn\FirstPlugIn\obj\Debug\FirstPlugIn.pdb
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\bin\Debug\FirstPlugIn.dll
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\bin\Debug\FirstPlugIn.pdb
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\bin\Debug\PlugInInterface.dll
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\obj\Debug\FirstPlugIn.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\obj\Debug\FirstPlugIn.dll
+C:\Users\Verena\Desktop\PlugInBsp\FirstPlugIn\FirstPlugIn\obj\Debug\FirstPlugIn.pdb

@@ -1,0 +1,35 @@
+﻿<Window x:Class="PiGameConsole.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PiGameConsole"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="380" Width="525">
+    <Grid>
+		<Grid>
+			<StackPanel>
+				<TextBlock Margin="10" FontSize="20">The Witcher 3</TextBlock>
+				<Button Margin="10" Click="Button_Click_Buy">
+					Buy
+				</Button>
+				<Button Margin="10" Click="Button_Click_Install">
+					Install
+				</Button>
+				<Button Margin="10" Click="Button_Click_Play">
+					Play
+				</Button>
+				<TextBlock Margin="10" FontSize="20">Deus Ex</TextBlock>
+				<Button Margin="10" Click="Button_Click_Buy_DE">
+					Buy
+				</Button>
+				<Button Margin="10" Click="Button_Click_Install_DE">
+					Install
+				</Button>
+				<Button Margin="10" Click="Button_Click_Play_DE">
+					Play
+				</Button>
+			</StackPanel>
+		</Grid>
+	</Grid>
+</Window>

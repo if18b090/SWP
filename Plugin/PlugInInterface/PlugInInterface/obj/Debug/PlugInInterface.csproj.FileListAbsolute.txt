@@ -1,0 +1,10 @@
+E:\FH\SS2017\SoftwareParadigmen\PlugInInterface\PlugInInterface\bin\Debug\PlugInInterface.dll
+E:\FH\SS2017\SoftwareParadigmen\PlugInInterface\PlugInInterface\bin\Debug\PlugInInterface.pdb
+E:\FH\SS2017\SoftwareParadigmen\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.csprojResolveAssemblyReference.cache
+E:\FH\SS2017\SoftwareParadigmen\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.dll
+E:\FH\SS2017\SoftwareParadigmen\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.pdb
+C:\Users\Verena\Desktop\PlugInBsp\PlugInInterface\PlugInInterface\bin\Debug\PlugInInterface.dll
+C:\Users\Verena\Desktop\PlugInBsp\PlugInInterface\PlugInInterface\bin\Debug\PlugInInterface.pdb
+C:\Users\Verena\Desktop\PlugInBsp\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\PlugInBsp\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.dll
+C:\Users\Verena\Desktop\PlugInBsp\PlugInInterface\PlugInInterface\obj\Debug\PlugInInterface.pdb

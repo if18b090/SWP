@@ -1,0 +1,4 @@
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\Customer\bin\Debug\Customer.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\Customer\bin\Debug\Customer.pdb
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\Customer\obj\Debug\Customer.dll
+C:\Users\Verena\Desktop\Creating a simple plugin mechanism\C#\Customer\obj\Debug\Customer.pdb

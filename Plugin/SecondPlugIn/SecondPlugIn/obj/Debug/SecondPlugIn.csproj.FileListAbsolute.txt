@@ -1,0 +1,11 @@
+E:\FH\SS2017\SoftwareParadigmen\SecondPlugIn\SecondPlugIn\bin\Debug\SecondPlugIn.dll
+E:\FH\SS2017\SoftwareParadigmen\SecondPlugIn\SecondPlugIn\bin\Debug\SecondPlugIn.pdb
+E:\FH\SS2017\SoftwareParadigmen\SecondPlugIn\SecondPlugIn\bin\Debug\PlugInInterface.dll
+E:\FH\SS2017\SoftwareParadigmen\SecondPlugIn\SecondPlugIn\obj\Debug\SecondPlugIn.dll
+E:\FH\SS2017\SoftwareParadigmen\SecondPlugIn\SecondPlugIn\obj\Debug\SecondPlugIn.pdb
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\bin\Debug\SecondPlugIn.dll
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\bin\Debug\SecondPlugIn.pdb
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\bin\Debug\PlugInInterface.dll
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\obj\Debug\SecondPlugIn.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\obj\Debug\SecondPlugIn.dll
+C:\Users\Verena\Desktop\PlugInBsp\SecondPlugIn\SecondPlugIn\obj\Debug\SecondPlugIn.pdb

@@ -9,7 +9,7 @@ namespace CRMSoft
 {
     public class PluginManager : IManager
     {
-        public List<IPlugin> ManagerList { get; } = new List<IPlugin>();
+        public List<IPlugin> ManagerList { get; }
 
         public void Add(object obj)
         {

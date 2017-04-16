@@ -9,22 +9,17 @@ namespace Plugin
 {
     class CustomerManager : IManager
     {
-        public List<IPlugin> ManagerList
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public List<IPlugin> ManagerList { get; }
 
         public void Add(object obj)
         {
-            throw new NotImplementedException();
-        }
+			ManagerList.Add((IPlugin)obj);
+
+		}
 
         public void Remove(object obj)
         {
-            throw new NotImplementedException();
+			ManagerList.Remove((IPlugin)obj);
         }
     }
 }
