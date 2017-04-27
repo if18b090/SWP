@@ -1,0 +1,9 @@
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\Command.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\Command.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.pdb

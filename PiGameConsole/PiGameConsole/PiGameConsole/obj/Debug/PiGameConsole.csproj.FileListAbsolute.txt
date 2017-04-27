@@ -44,3 +44,31 @@ C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\obj\Debug\PiGam
 C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.csproj.GenerateResource.Cache
 C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.dll
 C:\Users\Verena\Desktop\SWP\Übung 4\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\PiGameConsole.exe.config
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.exe
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\PiGameConsole.exe
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\PiGameConsole.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\FirstGame.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\State.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\FirstGame.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\State.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\MainWindow.g.cs
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\App.g.cs
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole_MarkupCompile.cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole_MarkupCompile.lref
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\MainWindow.baml
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.g.resources
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.Properties.Resources.resources
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.csproj.GenerateResource.Cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\Command.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\Command.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\CommandTerminal.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\CommandTerminal.pdb

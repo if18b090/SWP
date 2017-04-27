@@ -1,4 +1,7 @@
-﻿using FirstGame;
+﻿using Command;
+using CommandTerminal;
+using FirstGame;
+using GameInterface;
 using SecondGame;
 using System;
 using System.Collections.Generic;
@@ -22,47 +25,63 @@ namespace PiGameConsole
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		CommandTerminal.CommandTerminal CommandTerminal;
+		FirstGame.FirstGame TheWitcher3;
+		FirstGame.FirstGame DeusEx;
+
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			CommandTerminal = new CommandTerminal.CommandTerminal();
+
+			TheWitcher3 = new FirstGame.FirstGame();
+			DeusEx = new FirstGame.FirstGame();
+
+			CommandTerminal.SetCommand(0, new BuyCommand(TheWitcher3));
+			CommandTerminal.SetCommand(1, new InstallCommand(TheWitcher3));
+			CommandTerminal.SetCommand(2, new PlayCommand(TheWitcher3));
+
+			CommandTerminal.SetCommand(3, new BuyCommand(DeusEx));
+			CommandTerminal.SetCommand(4, new InstallCommand(DeusEx));
+			CommandTerminal.SetCommand(5, new PlayCommand(DeusEx));
 		}
 
-		FirstGame.FirstGame TheWitcher3 = new FirstGame.FirstGame();
-		SecondGame.SecondGame DeusEx = new SecondGame.SecondGame();
+
 
 		private void Button_Click_Install(object sender, RoutedEventArgs e)
 		{
-			string msg = TheWitcher3.InstallGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(1);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Play(object sender, RoutedEventArgs e)
 		{
-			string msg = TheWitcher3.PlayGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(2);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Buy(object sender, RoutedEventArgs e)
 		{
-			string msg = TheWitcher3.BuyGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(0);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Install_DE(object sender, RoutedEventArgs e)
 		{
-			string msg = DeusEx.InstallGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(4);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Play_DE(object sender, RoutedEventArgs e)
 		{
-			string msg = DeusEx.PlayGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(5);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Buy_DE(object sender, RoutedEventArgs e)
 		{
-			string msg = DeusEx.BuyGame();
+			string msg = CommandTerminal.ExecuteChosenCommand(3);
 			MessageBox.Show(msg);
 		}
 	}

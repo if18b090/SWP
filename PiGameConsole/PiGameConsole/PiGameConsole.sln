@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondGame", "SecondGame\SecondGame.csproj", "{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandTerminal", "CommandTerminal\CommandTerminal.csproj", "{9537D2AA-249E-4515-9A74-F270671B3641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9537D2AA-249E-4515-9A74-F270671B3641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9537D2AA-249E-4515-9A74-F270671B3641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9537D2AA-249E-4515-9A74-F270671B3641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9537D2AA-249E-4515-9A74-F270671B3641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

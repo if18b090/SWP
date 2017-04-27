@@ -16,7 +16,6 @@ namespace FirstGame
 		public FirstGame()
 		{
 			currentState = new AvailableInStoreState(this);
-			//State = currentState;
 		}
 
 		public IState State
