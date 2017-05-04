@@ -13,7 +13,7 @@ namespace CommandTerminal
 
 		public CommandTerminal()
 		{
-			commands = new ICommand[6];
+			commands = new ICommand[10];
 		}
 
 		public void SetCommand(int position, ICommand command)

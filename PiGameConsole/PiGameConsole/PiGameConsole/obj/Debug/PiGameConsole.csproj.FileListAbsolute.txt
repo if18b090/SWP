@@ -50,12 +50,10 @@ C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\PiGameConsole.exe
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\PiGameConsole.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\FirstGame.dll
-C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\GameInterface.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\StateInterface.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\State.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\FirstGame.pdb
-C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\SecondGame.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\GameInterface.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\StateInterface.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\State.pdb

@@ -19,6 +19,12 @@
 				<Button Margin="10" Click="Button_Click_Play">
 					Play
 				</Button>
+				<Button Margin="10" Click="Button_Click_Stop">
+					Stop
+				</Button>
+				<Button Margin="10" Click="Button_Click_Uninstall">
+					Uninstall
+				</Button>
 				<TextBlock Margin="10" FontSize="20">Deus Ex</TextBlock>
 				<Button Margin="10" Click="Button_Click_Buy_DE">
 					Buy

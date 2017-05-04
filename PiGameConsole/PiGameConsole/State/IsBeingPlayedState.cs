@@ -30,5 +30,16 @@ namespace State
 		{
 			return "You are already playing!";
 		}
+
+		public string StopGame()
+		{
+			Game.State = new InstalledState(Game);
+			return "You left the game!";
+		}
+
+		public string UninstallGame()
+		{
+			return "You cannot uninstall while playing";
+		}
 	}
 }

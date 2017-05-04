@@ -7,13 +7,13 @@ using GameInterface;
 using StateInterface;
 using State;
 
-namespace FirstGame
+namespace Game
 {
-	public class FirstGame : IGame
+	public class Game : IGame
 	{
 		IState currentState;
 
-		public FirstGame()
+		public Game()
 		{
 			currentState = new AvailableInStoreState(this);
 		}
@@ -44,6 +44,16 @@ namespace FirstGame
 		public string PlayGame()
 		{
 			return State.PlayGame();
+		}
+
+		public string StopGame()
+		{
+			return State.StopGame();
+		}
+
+		public string UninstallGame()
+		{
+			return State.UninstallGame();
 		}
 	}
 }

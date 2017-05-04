@@ -104,17 +104,13 @@
       <Project>{F6E240EA-1B7E-46A4-B7F7-4D7903C09A03}</Project>
       <Name>Command</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FirstGame\FirstGame.csproj">
+    <ProjectReference Include="..\FirstGame\Game.csproj">
       <Project>{73D6E4C2-6101-405A-B2A9-2E533368BAE9}</Project>
-      <Name>FirstGame</Name>
+      <Name>Game</Name>
     </ProjectReference>
     <ProjectReference Include="..\GameInterface\GameInterface.csproj">
       <Project>{60B0E91D-8497-4EF3-B87E-029B26FFECEC}</Project>
       <Name>GameInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SecondGame\SecondGame.csproj">
-      <Project>{FCFEA12B-9FF5-42AF-AD32-F40CE275598F}</Project>
-      <Name>SecondGame</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

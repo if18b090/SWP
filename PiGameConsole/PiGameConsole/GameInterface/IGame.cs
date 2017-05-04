@@ -12,6 +12,8 @@ namespace GameInterface
 		string BuyGame();
 		string InstallGame();
 		string PlayGame();
+		string StopGame();
+		string UninstallGame();
 		IState State { get; set; }
 		
 	}

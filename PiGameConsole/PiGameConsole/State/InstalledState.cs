@@ -31,5 +31,16 @@ namespace State
 			Game.State = new IsBeingPlayedState(Game);
 			return "Starting game!";
 		}
+
+		public string StopGame()
+		{
+			return "You are not playing!";
+		}
+
+		public string UninstallGame()
+		{
+			Game.State = new BoughtState(Game);
+			return "Uninstall succesful!";
+		}
 	}
 }

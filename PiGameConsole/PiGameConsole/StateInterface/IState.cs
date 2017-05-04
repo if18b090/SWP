@@ -11,5 +11,7 @@ namespace StateInterface
 		string BuyGame();
 		string InstallGame();
 		string PlayGame();
+		string StopGame();
+		string UninstallGame();
 	}
 }

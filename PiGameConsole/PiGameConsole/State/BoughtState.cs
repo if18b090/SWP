@@ -31,5 +31,15 @@ namespace State
 		{
 			return "You need to install first!";
 		}
+
+		public string StopGame()
+		{
+			return "You are not playing!";
+		}
+
+		public string UninstallGame()
+		{
+			return "Game is not installed!";
+		}
 	}
 }

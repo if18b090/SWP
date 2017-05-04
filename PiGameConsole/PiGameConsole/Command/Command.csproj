@@ -45,6 +45,8 @@
     <Compile Include="InstallCommand.cs" />
     <Compile Include="PlayCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StopCommand.cs" />
+    <Compile Include="UninstallCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GameInterface\GameInterface.csproj">
