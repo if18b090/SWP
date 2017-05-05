@@ -19,3 +19,10 @@ C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\GameInterface\bin\Debug\
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.csprojResolveAssemblyReference.cache
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\GameInterface\obj\Debug\GameInterface.pdb

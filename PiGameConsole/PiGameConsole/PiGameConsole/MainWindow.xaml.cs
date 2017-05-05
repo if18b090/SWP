@@ -27,25 +27,61 @@ namespace PiGameConsole
 		CommandTerminal.CommandTerminal CommandTerminal;
 		Game.Game TheWitcher3;
 		Game.Game DeusEx;
+		Game.Game CrazyCatLadyAdventure7;
+
+		//Button bt = (Button)sender;
+		//bt.Visibility = Visibility.Hidden;
+		//Button wird vom Mediator disabled
 
 		public MainWindow()
 		{
-			InitializeComponent();
-
 			CommandTerminal = new CommandTerminal.CommandTerminal();
+			TheWitcher3 = new Game.Game("The Witcher 3");
+			DeusEx = new Game.Game("Deus Ex");
+			CrazyCatLadyAdventure7 = new Game.Game("Crazy Cat Lady Adventure 7");
 
-			TheWitcher3 = new Game.Game();
-			DeusEx = new Game.Game();
+			InitializeComponent();
+		}
 
-			CommandTerminal.SetCommand(0, new BuyCommand(TheWitcher3));
-			CommandTerminal.SetCommand(1, new InstallCommand(TheWitcher3));
-			CommandTerminal.SetCommand(2, new PlayCommand(TheWitcher3));
-			CommandTerminal.SetCommand(3, new StopCommand(TheWitcher3));
-			CommandTerminal.SetCommand(4, new UninstallCommand(TheWitcher3));
+		private void OnListItemSelect(object sender, SelectionChangedEventArgs args)
+		{
+			ListBox lb = (ListBox)sender;
+			string item = lb.SelectedItem.ToString();
 
-			CommandTerminal.SetCommand(5, new BuyCommand(DeusEx));
-			CommandTerminal.SetCommand(6, new InstallCommand(DeusEx));
-			CommandTerminal.SetCommand(7, new PlayCommand(DeusEx));
+			//Mediator Aufgabe
+			tb.Text = "   You selected " + item + ".";
+
+			IGame SelectedGame;
+
+			switch (item)
+			{
+				case "The Witcher 3":
+					SelectedGame = TheWitcher3;
+					break;
+				case "Deus Ex":
+					SelectedGame = DeusEx;
+					break;
+				case "Crazy Cat Lady Adventure 7":
+					SelectedGame = CrazyCatLadyAdventure7;
+					break;
+				default:
+					SelectedGame = TheWitcher3;
+					break;
+			}
+
+			CommandTerminal.SetCommand(0, new BuyCommand(SelectedGame));
+			CommandTerminal.SetCommand(1, new InstallCommand(SelectedGame));
+			CommandTerminal.SetCommand(2, new PlayCommand(SelectedGame));
+			CommandTerminal.SetCommand(3, new StopCommand(SelectedGame));
+			CommandTerminal.SetCommand(4, new UninstallCommand(SelectedGame));
+		}
+
+		private void ListBoxItem_Initialized(object sender, EventArgs e)
+		{
+			ListBox lb = sender as ListBox;
+			lb.Items.Add(TheWitcher3.Name);
+			lb.Items.Add(DeusEx.Name);
+			lb.Items.Add(CrazyCatLadyAdventure7.Name);
 		}
 
 		private void Button_Click_Install(object sender, RoutedEventArgs e)
@@ -64,9 +100,6 @@ namespace PiGameConsole
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(0);
 			MessageBox.Show(msg);
-			//Button bt = (Button)sender;
-			//bt.Visibility = Visibility.Hidden;
-			//Button wird vom Mediator disabled
 		}
 
 		private void Button_Click_Stop(object sender, RoutedEventArgs e)
@@ -78,26 +111,6 @@ namespace PiGameConsole
 		private void Button_Click_Uninstall(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(4);
-			MessageBox.Show(msg);
-		}
-
-
-
-		private void Button_Click_Install_DE(object sender, RoutedEventArgs e)
-		{
-			string msg = CommandTerminal.ExecuteChosenCommand(6);
-			MessageBox.Show(msg);
-		}
-
-		private void Button_Click_Play_DE(object sender, RoutedEventArgs e)
-		{
-			string msg = CommandTerminal.ExecuteChosenCommand(7);
-			MessageBox.Show(msg);
-		}
-
-		private void Button_Click_Buy_DE(object sender, RoutedEventArgs e)
-		{
-			string msg = CommandTerminal.ExecuteChosenCommand(5);
 			MessageBox.Show(msg);
 		}
 	}

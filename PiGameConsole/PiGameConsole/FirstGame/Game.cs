@@ -12,9 +12,16 @@ namespace Game
 	public class Game : IGame
 	{
 		IState currentState;
+		public string Name { get; set; }
 
 		public Game()
 		{
+			currentState = new AvailableInStoreState(this);
+		}
+
+		public Game(string name)
+		{
+			Name = name;
 			currentState = new AvailableInStoreState(this);
 		}
 
