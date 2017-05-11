@@ -15,6 +15,5 @@ namespace GameInterface
 		string StopGame();
 		string UninstallGame();
 		IState State { get; set; }
-		
 	}
 }

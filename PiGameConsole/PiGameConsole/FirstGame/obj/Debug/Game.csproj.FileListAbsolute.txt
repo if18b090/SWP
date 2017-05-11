@@ -9,3 +9,14 @@ C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\Stat
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\Game.csprojResolveAssemblyReference.cache
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\FirstGame.dll
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\FirstGame.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\FirstGame.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\FirstGame.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\State.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\bin\Debug\State.pdb
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\FirstGame.dll
+C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\FirstGame\obj\Debug\FirstGame.pdb
