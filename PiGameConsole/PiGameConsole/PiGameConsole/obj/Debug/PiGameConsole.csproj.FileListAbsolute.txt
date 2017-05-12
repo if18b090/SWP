@@ -96,3 +96,5 @@ C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\De
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.g.resources
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.Properties.Resources.resources
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\PiGameConsole\obj\Debug\PiGameConsole.csproj.GenerateResource.Cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\Mediator.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\PiGameConsole\bin\Debug\Mediator.pdb

@@ -112,6 +112,14 @@
       <Project>{60B0E91D-8497-4EF3-B87E-029B26FFECEC}</Project>
       <Name>GameInterface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Mediator\Mediator.csproj">
+      <Project>{3400CC85-7BE3-4C4D-B0F8-AB9477F1A9BC}</Project>
+      <Name>Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StateInterface\StateInterface.csproj">
+      <Project>{5027E76D-EA5D-4246-8D1E-1962ECB0C109}</Project>
+      <Name>StateInterface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

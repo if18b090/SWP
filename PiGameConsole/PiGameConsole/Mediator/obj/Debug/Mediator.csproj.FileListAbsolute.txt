@@ -1,0 +1,11 @@
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\Mediator.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\Mediator.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\obj\Debug\Mediator.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\obj\Debug\Mediator.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\obj\Debug\Mediator.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\GameInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\State.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\StateInterface.dll
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\GameInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\State.pdb

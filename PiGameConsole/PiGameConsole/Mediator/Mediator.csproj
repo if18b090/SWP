@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMediator.cs" />
+    <Compile Include="Mediator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameInterface\GameInterface.csproj">
+      <Project>{60B0E91D-8497-4EF3-B87E-029B26FFECEC}</Project>
+      <Name>GameInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StateInterface\StateInterface.csproj">
+      <Project>{5027E76D-EA5D-4246-8D1E-1962ECB0C109}</Project>
+      <Name>StateInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\State\State.csproj">
+      <Project>{08B93278-3917-4885-A969-A9F98874B57A}</Project>
+      <Name>State</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
