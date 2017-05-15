@@ -13,16 +13,45 @@ namespace Mediator
 {
 	public class Mediator
 	{
-		public void disableTheButton(List<Button> buttons, IGame game)
+		public void manageButtons(List<Button> buttons, IGame game)
 		{
 			IState state = game.State;
-			if (state.Equals(new BoughtState(game)))
-			{
-				buttons[0].Visibility = Visibility.Hidden;
-				buttons[1].Visibility = Visibility.Hidden;
-				buttons[2].Visibility = Visibility.Hidden;
-			}
 
+				if (state.GetType().Equals(new AvailableInStoreState(game).GetType()))
+				{
+					buttons[0].Visibility = Visibility.Visible;
+					buttons[1].Visibility = Visibility.Collapsed;
+					buttons[2].Visibility = Visibility.Collapsed;
+					buttons[3].Visibility = Visibility.Collapsed;
+					buttons[4].Visibility = Visibility.Collapsed;
+				}
+
+				else if (state.GetType().Equals(new BoughtState(game).GetType()))
+				{
+					buttons[0].Visibility = Visibility.Collapsed;
+					buttons[1].Visibility = Visibility.Visible;
+					buttons[2].Visibility = Visibility.Collapsed;
+					buttons[3].Visibility = Visibility.Collapsed;
+					buttons[4].Visibility = Visibility.Collapsed;
+				}
+
+				else if (state.GetType().Equals(new InstalledState(game).GetType()))
+				{
+					buttons[0].Visibility = Visibility.Collapsed;
+					buttons[1].Visibility = Visibility.Collapsed;
+					buttons[2].Visibility = Visibility.Visible;
+					buttons[3].Visibility = Visibility.Collapsed;
+					buttons[4].Visibility = Visibility.Visible;
+				}
+
+				else if (state.GetType().Equals(new IsBeingPlayedState(game).GetType()))
+				{
+					buttons[0].Visibility = Visibility.Collapsed;
+					buttons[1].Visibility = Visibility.Collapsed;
+					buttons[2].Visibility = Visibility.Collapsed;
+					buttons[3].Visibility = Visibility.Visible;
+					buttons[4].Visibility = Visibility.Collapsed;
+				}
 			}
-		}
 	}
+}

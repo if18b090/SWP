@@ -34,10 +34,6 @@ namespace PiGameConsole
 
 		IGame SelectedGame;
 
-		//Button bt = (Button)sender;
-		//bt.Visibility = Visibility.Hidden;
-		//Button wird vom Mediator disabled
-
 		public MainWindow()
 		{
 			CommandTerminal = new CommandTerminal.CommandTerminal();
@@ -45,19 +41,17 @@ namespace PiGameConsole
 			DeusEx = new Game.Game("Deus Ex");
 			CrazyCatLadyAdventure7 = new Game.Game("Crazy Cat Lady Adventure 7");
 			Mediator = new Mediator.Mediator();
+			SelectedGame = TheWitcher3;
 
 			InitializeComponent();
 
 			Buttons = new List<Button>() { BuyButton, InstallButton, PlayButton, StopButton, UninstallButton };
-
 		}
 
 		private void OnListItemSelect(object sender, SelectionChangedEventArgs args)
 		{
 			ListBox lb = (ListBox)sender;
 			string item = lb.SelectedItem.ToString();
-
-			//tb.Text = "   You selected " + item + ".";
 
 			switch (item)
 			{
@@ -80,6 +74,7 @@ namespace PiGameConsole
 			CommandTerminal.SetCommand(2, new PlayCommand(SelectedGame));
 			CommandTerminal.SetCommand(3, new StopCommand(SelectedGame));
 			CommandTerminal.SetCommand(4, new UninstallCommand(SelectedGame));
+			Mediator.manageButtons(Buttons, SelectedGame);
 		}
 
 		private void ListBoxItem_Initialized(object sender, EventArgs e)
@@ -88,40 +83,41 @@ namespace PiGameConsole
 			lb.Items.Add(TheWitcher3.Name);
 			lb.Items.Add(DeusEx.Name);
 			lb.Items.Add(CrazyCatLadyAdventure7.Name);
+			SelectedGame = TheWitcher3;
 		}
 
 		private void Button_Click_Buy(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(0);
-			Mediator.disableTheButton(Buttons, SelectedGame);
+			Mediator.manageButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Install(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(1);
-			Mediator.disableTheButton(Buttons, SelectedGame);
+			Mediator.manageButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Play(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(2);
-			Mediator.disableTheButton(Buttons, SelectedGame);
+			Mediator.manageButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Stop(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(3);
-			Mediator.disableTheButton(Buttons, SelectedGame);
+			Mediator.manageButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Uninstall(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(4);
-			Mediator.disableTheButton(Buttons, SelectedGame);
+			Mediator.manageButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 	}
