@@ -13,7 +13,7 @@ namespace Mediator
 {
 	public class Mediator
 	{
-		public void manageButtons(List<Button> buttons, IGame game)
+		public void refreshButtons(List<Button> buttons, IGame game)
 		{
 			IState state = game.State;
 
