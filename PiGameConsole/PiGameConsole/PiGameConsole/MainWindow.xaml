@@ -5,37 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PiGameConsole"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="450" Width="650" FontSize="20">
 	<Grid>
 		<StackPanel>
-			<TextBlock Margin="10" FontSize="20">Select a Game</TextBlock>
+			<TextBlock Margin="10" FontSize="30">Select a Game</TextBlock>
 			<ListBox x:Name="listBox" Height="100" SelectionChanged="OnListItemSelect" SelectionMode="Single" Initialized="ListBoxItem_Initialized">
 			</ListBox>
-			<TextBox Name="tb" Width="Auto" Height="30"></TextBox>
-			<Grid>
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-				</Grid.ColumnDefinitions>
-				<Button Margin="10" Click="Button_Click_Buy" Grid.Column="0">
+			<DockPanel LastChildFill="False">
+				<Button Margin="10" Click="Button_Click_Buy" Name="BuyButton">
 					Buy
 				</Button>
-				<Button Margin="10" Click="Button_Click_Install" Grid.Column="1">
+				<Button Margin="10" Click="Button_Click_Install" Name="InstallButton">
 					Install
 				</Button>
-				<Button Margin="10" Click="Button_Click_Play" Grid.Column="2">
+				<Button Margin="10" Click="Button_Click_Play" Name="PlayButton">
 					Play
 				</Button>
-				<Button Margin="10" Click="Button_Click_Stop" Grid.Column="3">
+				<Button Margin="10" Click="Button_Click_Stop" Name="StopButton">
 					Stop
 				</Button>
-				<Button Margin="10" Click="Button_Click_Uninstall" Grid.Column="4">
+				<Button Margin="10" Click="Button_Click_Uninstall" Name="UninstallButton">
 					Uninstall
 				</Button>
-			</Grid>
+			</DockPanel>
 		</StackPanel>
 	</Grid>
 </Window>

@@ -2,6 +2,7 @@
 using CommandTerminal;
 using Game;
 using GameInterface;
+using StateInterface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,10 +29,10 @@ namespace PiGameConsole
 		Game.Game TheWitcher3;
 		Game.Game DeusEx;
 		Game.Game CrazyCatLadyAdventure7;
+		Mediator.Mediator Mediator;
+		List<Button> Buttons;
 
-		//Button bt = (Button)sender;
-		//bt.Visibility = Visibility.Hidden;
-		//Button wird vom Mediator disabled
+		IGame SelectedGame;
 
 		public MainWindow()
 		{
@@ -39,19 +40,18 @@ namespace PiGameConsole
 			TheWitcher3 = new Game.Game("The Witcher 3");
 			DeusEx = new Game.Game("Deus Ex");
 			CrazyCatLadyAdventure7 = new Game.Game("Crazy Cat Lady Adventure 7");
+			Mediator = new Mediator.Mediator();
+			SelectedGame = TheWitcher3;
 
 			InitializeComponent();
+
+			Buttons = new List<Button>() { BuyButton, InstallButton, PlayButton, StopButton, UninstallButton };
 		}
 
 		private void OnListItemSelect(object sender, SelectionChangedEventArgs args)
 		{
 			ListBox lb = (ListBox)sender;
 			string item = lb.SelectedItem.ToString();
-
-			//Mediator Aufgabe
-			tb.Text = "   You selected " + item + ".";
-
-			IGame SelectedGame;
 
 			switch (item)
 			{
@@ -74,6 +74,7 @@ namespace PiGameConsole
 			CommandTerminal.SetCommand(2, new PlayCommand(SelectedGame));
 			CommandTerminal.SetCommand(3, new StopCommand(SelectedGame));
 			CommandTerminal.SetCommand(4, new UninstallCommand(SelectedGame));
+			Mediator.refreshButtons(Buttons, SelectedGame);
 		}
 
 		private void ListBoxItem_Initialized(object sender, EventArgs e)
@@ -84,33 +85,38 @@ namespace PiGameConsole
 			lb.Items.Add(CrazyCatLadyAdventure7.Name);
 		}
 
+		private void Button_Click_Buy(object sender, RoutedEventArgs e)
+		{
+			string msg = CommandTerminal.ExecuteChosenCommand(0);
+			Mediator.refreshButtons(Buttons, SelectedGame);
+			MessageBox.Show(msg);
+		}
+
 		private void Button_Click_Install(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(1);
+			Mediator.refreshButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Play(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(2);
-			MessageBox.Show(msg);
-		}
-
-		private void Button_Click_Buy(object sender, RoutedEventArgs e)
-		{
-			string msg = CommandTerminal.ExecuteChosenCommand(0);
+			Mediator.refreshButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Stop(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(3);
+			Mediator.refreshButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 
 		private void Button_Click_Uninstall(object sender, RoutedEventArgs e)
 		{
 			string msg = CommandTerminal.ExecuteChosenCommand(4);
+			Mediator.refreshButtons(Buttons, SelectedGame);
 			MessageBox.Show(msg);
 		}
 	}
