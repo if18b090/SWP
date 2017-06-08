@@ -11,19 +11,14 @@ namespace Composite
 	{
 		static void Main(string[] args)
 		{
+			Rectangle rectangle = new Rectangle(new Point(0, 0), new Point(1, 0), new Point(1, 1), new Point(0, 1));
+			Triangle triangle = new Triangle(new Point(1, 2), new Point(3, 4), new Point(4, 5));
 			Circle circle = new Circle(2, 3, 4);
-			Rectangle rect = new Rectangle(new Point(2, 3), new Point(3, 4), new Point(4, 5), new Point(5, 6));
-			Triangle triage = new Triangle(new Point(1, 2), new Point(3, 4), new Point(4, 5));
-
-			circle.draw();
-			rect.draw();
-			triage.draw();
-
-			Console.WriteLine("\n");
 
 			GraphicObjectGroup Group = new GraphicObjectGroup();
-			Group.add(rect);
-			Group.add(triage);
+			Group.add(rectangle);
+			Group.add(triangle);
+			Group.add(circle);
 
 			Group.draw();
 			Group.move(1, 1);

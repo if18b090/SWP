@@ -21,15 +21,7 @@ namespace Composite
 
 		override public void draw()
 		{
-			Console.WriteLine("RECTANGLE drawn: p1 = " + p1 + ", p2 = " + p2 + ", p3 = " + p3 + " and p4= " + p4 + ".");
-		}
-
-	override public void add(GraphicObject g)
-		{
-		}
-
-		override public void remove(GraphicObject g)
-		{
+			Console.WriteLine("RECTANGLE drawn:\np1 = " + p1 + "\np2 = " + p2 + "\np3 = " + p3 + "\np4 = " + p4 + "\n");
 		}
 
 		override public void move(int dx, int dy)
@@ -38,7 +30,8 @@ namespace Composite
 			p2.Offset(dx, dy);
 			p3.Offset(dx, dy);
 			p4.Offset(dx, dy);
-			Console.WriteLine("Corners of RECTANGLE now at: p1 = " + p1 + ", p2 = " + p2 + " p3= " + p3 + " p4 = " + p4 + ".");
+			Console.WriteLine("MOVED!");
+			Console.WriteLine("Corners of RECTANGLE now at: \np1 = " + p1 + "\np2 = " + p2 + "\np3 = " + p3 + "\np4 = " + p4 + "\n");
 		}
 	}
 }

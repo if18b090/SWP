@@ -22,22 +22,15 @@ namespace Composite
 
 	override public void draw()
 		{
-			Console.WriteLine("CIRCLE drawn: x=" + x + " and y= " + y + ", radius r= " + radius);
-		}
-
-		override public void add(GraphicObject g)
-		{
-		}
-
-		override public void remove(GraphicObject g)
-		{
+			Console.WriteLine("CIRCLE drawn:\nx=" + x + "\ny=" + y + "\nradius r=" + radius + "\n");
 		}
 
 		override public void move(int dx, int dy)
 		{
 			x += dx;
 			y += dy;
-			Console.WriteLine("Position of CIRCLE now at: x = " + x + "y= " + y + ".");
+			Console.WriteLine("MOVED!");
+			Console.WriteLine("Position of CIRCLE now at:\nx = " + x + "\ny = " + y + "\n");
 		}
 	}
 }

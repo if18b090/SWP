@@ -18,22 +18,22 @@ namespace Composite
 			}
 		}
 
-		override public void add(GraphicObject g)
-		{
-			objectList.Add(g);
-		}
-
-		override public void remove(GraphicObject g)
-		{
-			objectList.Remove(g);
-		}
-
 		override public void move(int dx, int dy)
 		{
 			foreach (GraphicObject member in objectList)
 			{
 				member.move(dx, dy);
 			}
+		}
+
+		public void add(GraphicObject g)
+		{
+			objectList.Add(g);
+		}
+
+		public void remove(GraphicObject g)
+		{
+			objectList.Remove(g);
 		}
 	}
 }
