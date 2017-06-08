@@ -21,6 +21,7 @@ namespace Composite
 			Group.add(circle);
 
 			Group.draw();
+
 			Group.move(1, 1);
 			Console.ReadKey();
 		}

@@ -9,4 +9,5 @@ C:\Users\Verena\Desktop\SWP\Composite\Composite\obj\Debug\Composite.exe
 C:\Users\Verena\Desktop\SWP\Composite\Composite\obj\Debug\Composite.pdb
 C:\Users\Verena\Desktop\SWP\Composite\Composite\bin\Debug\Composite.exe
 C:\Users\Verena\Desktop\SWP\Composite\Composite\bin\Debug\Composite.pdb
-C:\Users\Verena\Desktop\SWP\Composite\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache
+C:\Users\Verena\Desktop\SWP\Composite\Composite\bin\Debug\Composite.exe.CodeAnalysisLog.xml
+C:\Users\Verena\Desktop\SWP\Composite\Composite\bin\Debug\Composite.exe.lastcodeanalysissucceeded
