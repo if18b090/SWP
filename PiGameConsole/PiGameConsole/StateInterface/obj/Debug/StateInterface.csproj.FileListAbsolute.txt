@@ -18,3 +18,5 @@ C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\StateInterface\bin\D
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.csprojResolveAssemblyReference.cache
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.dll
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\StateInterface\obj\Debug\StateInterface.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\StateInterface\bin\Debug\StateInterface.dll.CodeAnalysisLog.xml
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\StateInterface\bin\Debug\StateInterface.dll.lastcodeanalysissucceeded

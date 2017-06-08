@@ -16,3 +16,5 @@ C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\St
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.dll
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\Command\obj\Debug\Command.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\Command.dll.CodeAnalysisLog.xml
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Command\bin\Debug\Command.dll.lastcodeanalysissucceeded

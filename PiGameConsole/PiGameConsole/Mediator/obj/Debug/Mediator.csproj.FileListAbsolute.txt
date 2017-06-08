@@ -9,3 +9,5 @@ C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\State
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\GameInterface.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\StateInterface.pdb
 C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\State.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\Mediator.dll.CodeAnalysisLog.xml
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\Mediator\bin\Debug\Mediator.dll.lastcodeanalysissucceeded

@@ -20,3 +20,5 @@ C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\CommandTerminal\bin\
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\CommandTerminal\obj\Debug\CommandTerminal.csprojResolveAssemblyReference.cache
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\CommandTerminal\obj\Debug\CommandTerminal.dll
 C:\Users\Verena\Desktop\SWP\SWP\PiGameConsole\PiGameConsole\CommandTerminal\obj\Debug\CommandTerminal.pdb
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\CommandTerminal\bin\Debug\CommandTerminal.dll.CodeAnalysisLog.xml
+C:\Users\Verena\Desktop\SWP\PiGameConsole\PiGameConsole\CommandTerminal\bin\Debug\CommandTerminal.dll.lastcodeanalysissucceeded
